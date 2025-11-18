@@ -1,0 +1,10 @@
+# Medical-Chatbot-using-LLM-Langchain-Pinecone-Flask-AWS/requirements.txt
+        langchain==0.3.26 # because this is a stable version compatible with our codebase
+        flask==3.1.1 # for building the web application
+        sentence-transformers==4.1.0  #for embedding generation
+        pypdf==5.6.1 #for PDF processing
+        python-dotenv==1.0.0 # for environment variable management
+        langchain-pinecone==0.2.8 #for Pinecone vector database integration
+        langchain-openai==0.3.24 # for OpenAI API integration
+        langchain-community==0.3.26 # common utilities for Langchain
+        -e . # for setup.py file
